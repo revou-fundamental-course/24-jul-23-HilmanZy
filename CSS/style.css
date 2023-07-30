@@ -1,0 +1,81 @@
+a {
+    color: #3B4754;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#headnav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #EEF1F5;
+}
+
+#headnav img {
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#navigation {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+/* Gaya tabel di dalam #navigation */
+#navigation table {
+    width: 100%;
+    height: 1px;
+    border-collapse: separate; /* Menggunakan border-collapse: separate */
+    border-spacing: 0; /* Mengatur jarak antar border menjadi 0 */
+}
+
+/* Gaya sel header dan sel data */
+#navigation th, #navigation td {
+    padding: 10px;
+    text-align: center;
+    font-weight: normal; /* Teks "Home" tidak tebal (normal) */
+    border: 1px solid black; /* Menambahkan border pada sel */
+     /* Agar ketiga sel memiliki ukuran yang sama pada layar besar */
+}
+
+/* Gaya sel header */
+#navigation th {
+    width: 50px;
+}
+
+/* Gaya untuk bagian "Home" */
+#navigation td:first-child {
+    border-top-left-radius: 5.5px;
+    border-bottom-left-radius: 5.5px;
+    width: 100px;
+
+}
+
+/* Gaya untuk bagian "Our Package" */
+/* Tambahkan CSS tambahan sesuai kebutuhan */
+/* Pastikan jumlah baris di "Our Package" sama dengan "Home" dan "Call us" */
+
+/* Gaya untuk bagian "Call us" */
+#navigation td:last-child {
+    border-top-right-radius: 5.5px;
+    border-bottom-right-radius: 5.5px;
+    width: 100px;
+}
+
+#headtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #3B4754;
+}
+
+#subtitle {
+    font-size: small;
+    color: #798DA3;
+    font-weight: 300;
+}
